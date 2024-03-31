@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking conform</title>
+</head>
+<body>
+    <center>
+    <h2>Booking conform</h2>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>
+        <input type="hidden" name="action" value="submit_registration">
+
+        <a href=form.html> Back to home</a>
+    </form>
+    </center>
